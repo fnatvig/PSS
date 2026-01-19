@@ -9,8 +9,8 @@ Create and activate the Python virtual environment using the provided setup scri
 
 ### Windows (PowerShell)
 ```ps
-.\setup_venv.bat
-.\pp-venv\Scripts\Activate.ps1
+.\setup_venv.bat # Creates venv
+.\pp-venv\Scripts\Activate.ps1 # Activates the venv
 ```
 The script creates a virtual environment and installs all required dependencies listed in `requirements.txt`.
 
