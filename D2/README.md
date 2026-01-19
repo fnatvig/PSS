@@ -8,7 +8,7 @@
 Create and activate the Python virtual environment using the provided setup script.
 
 ### Windows (PowerShell)
-```ps
+```bash
 .\setup_venv.bat # Creates venv
 .\pp-venv\Scripts\Activate.ps1 # Activates the venv
 ```
@@ -16,7 +16,7 @@ The script creates a virtual environment and installs all required dependencies 
 
 ## Running power-flow calculation
 Activate the virtual environment (if you haven't already), then run: 
-```ps
+```bash
 python -B powerflow.py
 ```
 The power-flow results are printed to stdout, and the test network is plotted. 
